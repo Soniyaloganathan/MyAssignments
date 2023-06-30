@@ -1,7 +1,18 @@
 package day2assignments;
 
 public class FindSecondLargest {
+// Your Code is Correct, That too Complicate, belwo code is ealy find largest number
+// Follow Below Code
 
+public static void main(String[] args) {
+		int[] data = {3,2,11,4,6,7};
+	Arrays.sort(data);
+	int len = data.lenght;
+	System.out.println("The Second Largest No: " + data[data.len-2]);
+}
+
+
+	
 	public static void main(String[] args) {
 		int[] data = {3,2,11,4,6,7};
 		int temp,size;
@@ -24,3 +35,9 @@ public class FindSecondLargest {
 	}
 
 }
+
+
+
+
+
+
